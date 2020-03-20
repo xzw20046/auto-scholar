@@ -30,12 +30,14 @@
       数据文件存储在设置的路径下 /your/abspathdata/{keywords}/xxxx.pdf
 
 4、参数说明
-	--datadir    数据文件目录的绝对路径，默认为程序所在目录
-	--timeout   休眠时长，单位秒， 默认为10秒
-	--mirror     自定义谷歌学术镜像网站，如不填写，爬取网址为scholar.google.com.hk
-	--keys        搜索关键词文本文件绝对路径，默认为./keys.txt
-	--scihub     自定义sci-hub下载网站
-        --maxpage    自定义搜索页面数目
+
+    .
+    |--datadir    数据文件目录的绝对路径，默认为程序所在目录
+    |--timeout   休眠时长，单位秒， 默认为10秒
+    |--mirror     自定义谷歌学术镜像网站，如不填写，爬取网址为scholar.google.com.hk
+    |--keys        搜索关键词文本文件绝对路径，默认为./keys.txt
+    |--scihub     自定义sci-hub下载网站
+    |--maxpage    自定义搜索页面数目
 
 
 # 版本更新
